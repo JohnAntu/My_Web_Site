@@ -151,19 +151,12 @@ img {
   
 .nav__link:hover {
     position: relative;
+    transition: 0.5s ease-in;
+    font-size: 1.5rem;
+    
 }
 
 
-
-.nav__link:hover::after {
-    position: absolute;
-    content: '';
-    width: 1.5rem;
-    height: 0.1875rem;
-    left: 0.125rem;
-    top: 2.125rem;
-    background-color: var(--cor-red);
-}
 
 
 .nav__logo {
@@ -172,7 +165,7 @@ img {
 }
   
 .red__lg {
-    background: -webkit-linear-gradient(rgb(100, 2, 2), var(--cor-red));
+    background: -webkit-linear-gradient(#000, #940410d5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px rgba(255, 231, 231, 0.418);  
@@ -231,7 +224,7 @@ img {
 }
                                     
 .red__l {
-    background: -webkit-linear-gradient(#000, #940410);
+    background: -webkit-linear-gradient(#000, #940410d5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px rgba(255, 231, 231, 0.719);  
@@ -257,7 +250,7 @@ img {
 }
 
 .home__button:hover { 
-    border: 2px solid var(--cor-white);
+    border: 1px solid var(--cor-white);
 }
 
 
