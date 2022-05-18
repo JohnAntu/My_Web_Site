@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input type="radio" id="login" name="botao" checked= " "> 
+        <input type="radio" id="registar" name="botão">
+
+    <div id="botões">
+        <label for="login">Login</label> 
+        <label for="registar">Registar</label>
+        <span id="border"></span>
+    </div>
+    <form id="form1" onsubmit="return validar()">
+        <div class="inputbox"></div>
+         <input class="email" type="text">
+         <i class="fas fa-at"></i>
+         <label>Email:</label>
+         <span class="visor"></span>
+    </div>
+    <div class="inputBox">
+        <input class="senha" type="password">
+        <i class="fas fa-lock"></i>
+        <label>Password:</label>
+        <span class="mostrar"><i onclick="olhar(0)" class="fas fa-eye"></i></span>
+        <span class="visor"></span>
+    </div>
+    <p>&nbsp; Forgot your password?</p>
+    <input class="confirm" type="submit" value="LOG IN">
+    <div class="center">
+        <span>don't have an account?</span>
+        <label for="register">register</label>
+    </div>
+    </form>
+    <form onsubmit="return validar()" id="form2">
+        <div class="inputBox">
+            <input id="nome" type="text" style="text-transform: capitalize;">
+            <i class="fas da-user"></i>
+            <label>Name:</label>
+            <span class="visor"></span>
+        </div>
+        <div class="inputBox">
+            <input class="email" type="text">
+            <i class="fas fa-at"></i>
+            <label>Email:</label>
+            <span class="visor"></span>
+        </div>
+        <div class="inputBox">
+            <input class="senha" type="password">
+            <i class="fas fa-lock"></i>
+            <label>Password:</label>
+            <span class="mostrar"><i onclick="olhar(1)" class="fas fa-eye"></i></span>
+            <span class="visor"></span>
+        </div>
+        <div class="inputBox">
+            <input class="senha" type="password">
+            <i class="fas fa-lock"></i>
+            <label>confirm password:</label>
+            <span class="mostrar"><i onclick="olhar(2)" class="fas fa-eye"></i></span>
+            <span class="visor"></span>
+        </div> 
+        <input class="confirm" type="submit" value="REGISTER">
+        <div class="center">
+            <span>already have an account?</span>
+            <label for="login">login</label>
+        </div>
+    </div>
+    </form>
+    </div>
+    <script src=".js"></script>
+</body>
+</html>

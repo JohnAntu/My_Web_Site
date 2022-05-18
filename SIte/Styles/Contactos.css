@@ -1,0 +1,127 @@
+@charset "UTF-8"; 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100vh;
+    width: 100vw;
+	background-image: linear-gradient(to bottom, #000, #4E1116);
+}
+
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0;
+	padding-top: 15px;
+	background-color: rgba(0, 0, 0, 0.123);
+	color: white;
+}
+
+span {
+	color: #a30000;
+}
+
+.contactos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+
+.cartao {
+    background: #000;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 25vh auto;
+}
+
+.card-icon{
+    font-size: 28px;
+    background-color: #4E1116;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+
+.cartao:hover .card-icon{
+    background: none;
+    color: #fff;
+    transform: scale(1.6);
+}
+
+
+.cartao p{
+    font-family: "montserrat",sans-serif;
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.cartao:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .contact-info{
+      flex-direction: column;
+    }
+    
+    .contactos {
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .cartao {
+        display: ;
+    }
+
+}
+  

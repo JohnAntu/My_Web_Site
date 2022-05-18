@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Composição web </title>
+ <style>
+    nav {
+      width: 100vw;
+      background-color: rgba(0, 0, 0, .7);
+      height: 50px;
+      margin-top: 0px;
+      margin-bottom: 150px;
+    }
+
+    ul:nth-child(0) {
+      list-style: none;
+      display: inline;
+      text-decoration: none;
+      margin-top: 30px;
+      min-width: 100%;
+    }
+  </style>
+</head>
+<body style="min-height: 100vh; min-width: 96vw;">
+  <header style="width: 100%; position: relative">
+      <img src="HeadWeb1.png" style="width: 100%; height: 600px;">
+  </header>
+
+  <nav>
+    <ul><h3>
+        <li style="color: white; display:inline; padding: 1%;">Aprender HTML</li>
+        <li style="color: white; display:inline; padding: 1%;">Tutoriais</li>
+        <li style="color: white; display:inline; padding: 1%;">Dicas</li>
+        <li style="color: white; display:inline; padding: 1%;">Contacte-nos</li>
+    </h3></ul>
+</nav>
+
+<h1>Aprender HTML</h1> 
+<div style="width: 100%; display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; margin-bottom: 50px;">
+      <div style="display: flex; flex-direction: column; align-items: center; width: 50%; height: 100%; justify-content: start;">
+          <div style="display: flex; flex-direction: row; align-items: flex-start; width: 100%; margin-bottom: 100px;">
+              <img src="Headweb2.jpg" style="width: 300px; margin-right: 50px;">
+               
+      </div>
+
+<h1>Dicas HTML </h1>
+          <ul>
+              <li>A imagem do header foi criada em <a href="https://www.canva.com/">https://www.canva.com/</a></li>
+              <li>Podem obter uma palete de cores através de aplicações online, como por exemplo <a href="http://www.colourco.de/">http://www.colourco.de/</a> 
+              </li>
+              <li>O Menu deverá ser feito através de uma lista não ordenada. Para ter o aspeto pretendido devematribuir os seguintes estilos:
+                  <ul>
+                   <li>display: inline</li>
+                   <li>list-style-type: none</li>
+                   <li>text-decoration:none</li>
+                  </ul>
+              </li><li>Aprender HTML / Dicas e os Tutoriais deverão estar inseridos em uma tabela 2x2. A coluna Dicas
+                  deverá ocupar 70% da largura da</li>
+              <li>página. A coluna Tutoriais deve ocupar 2 linhas.</li>
+              <li>Os Tutoriais são iframes com vídeos do youtube</li>
+              <li>O formulário de contacto está inserido num div. Deverá atribuir ao div os seguintes estilos:</li>
+                  <ul>
+                    <li>background-color: whitesmoke</li>
+                    <li>padding-le:100</li>
+                    <li>padding-top:30</li>
+                  </ul>
+              <li> Os inputs do formulario deverão ter uma class associada a seguinte configuração:</li>
+                  <ul>
+                   <li>width: 40% </li>
+                    <li>line-height: 30px </li>
+                  </ul>
+                </ul></div>
+                <div style="display: flex; flex-direction: column; align-items: center; width: 50%;">
+                    <iframe style="margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/ZMbbgmfLPtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZMbbgmfLPtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+              </div>
+
+              <form style="padding-left: 100px; padding-top: 30px; background-color: whitesmoke;">
+                  <h2>Contacte-nos</h2>
+                  <h4>Envie-nos a sua dúvida ou sugestão</h4>
+                  <label for="name">Nome:</label><br>
+                  <input type="text" id="name" name="name" width="40%" size="30px" value=""><br>
+                  <label for="mail">Email:</label><br>
+                  <input type="email" id="mail" name="mail" width="40%" size="30px" value=""><br><br>
+                  <label for="ltel">Telemóvel:</label><br>
+                  <input type="text" id="tel" name="tel" width="40%" size="30px" value=""><br><br>
+                  <label for="tel">Mensagem:</label><br>
+                  <textarea id="text" name="text" cols="50" rows="10"></textarea><br><br>
+                  <label for="ctct">Qual a razão do seu contacto?: <br></label>
+                  <select name="info" id="info" style="width: 200px;">
+                      <option value="Motivo">Pedido de informação </option>
+                      <option value="Motivo1">1</option>
+                      <option value="Motivo2">2</option>
+                      <option value="Motivo3">3</option>
+                  </select> <br>
+                <label for="checkbox">Como prefere ser contactado?</label> <br>
+                <input type="checkbox" name="Telemóvel" value=""> Telemóvel <br>
+                <input type="checkbox" name="Email"  value=""> Email <br>
+                <label for="date">Data:</label>
+                  <input type="date" name="date"><br><br>
+                  <input type="submit" value="Submiter">
+                  <input type="reset" value="Cancelar">
+              </form>
+              
+</body>
+
+
+</html>
