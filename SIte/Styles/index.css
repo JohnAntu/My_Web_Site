@@ -147,16 +147,13 @@ img {
   
 .nav__link {
     color: var(--text-color);
+    transition: all 0.5s;
 }
   
 .nav__link:hover {
-    position: relative;
-    transition: 0.5s ease-in;
+    transition: 600ms ease;
     font-size: 1.5rem;
-    
 }
-
-
 
 
 .nav__logo {
@@ -246,11 +243,13 @@ img {
     cursor: pointer;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--cor-black)), to(var(--cor-red)));
     background-image: linear-gradient(to right, var(--cor-black), var(--cor-red));
+    transition: all 0.5s;
 
 }
 
 .home__button:hover { 
     border: 1px solid var(--cor-white);
+    padding: .950rem 2.5rem;
 }
 
 
@@ -280,13 +279,14 @@ img {
     margin-bottom: 2rem;
     font-size: 1.33rem;
     cursor: pointer;
+    transition: all 0.5s;
 }
   
 .home__social-icon:hover {
     color: var(--cor-red);
+    transition: all 0.5s;
+    height: 2.3rem;
 }
-
-
 
 
 
