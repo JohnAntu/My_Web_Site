@@ -1,8 +1,8 @@
-const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger'); 
+const hamburger = document.querySelector('.header .nav-bar .nav-lista .hamburger'); 
 
-const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul'); 
+const mobile_menu = document.querySelector('.header .nav-bar .nav-lista ul'); 
 
-const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a'); 
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-lista ul li a'); 
 
 const header = document.querySelector('.header.container'); 
 
