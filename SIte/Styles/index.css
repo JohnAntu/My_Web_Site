@@ -145,12 +145,30 @@ img {
         left: 0;
         background-image: linear-gradient(var(--cor-black), var(--cor-red));
         width: 100%;
-        height: 31%;
+        height: 40%;
         padding: 2.5rem;
         border-radius: 0 0 1rem 1rem;
         -webkit-transition: .5s;
         transition: .5s;
     }
+
+    .nav__link {
+        font-size: 1.255rem;
+    }
+
+    
+    h1.home__title {
+        font-size: 2.5rem;
+    }
+
+    span.home__apresentaçao, span.home__skill{
+        font-size: 1.3rem;
+    }
+
+    .home__img {
+        width: 300px;
+    }
+    
 }
   
 
@@ -336,7 +354,7 @@ img {
     
     
     .nav__toggle, .nav__close {
-      display: none;
+        display: none;
     }
     
     .nav__link {
@@ -372,7 +390,7 @@ img {
     }
 
     .home__img {
-        width: 553px;
+        width: 480px;
         right: 5%;
     }
     
