@@ -1,4 +1,4 @@
-@charset 'UTF-8'; 
+@charset "UTF-8"; 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
@@ -117,7 +117,9 @@ a {
     text-decoration: none;
 
 }
-  
+
+
+
 img {
 
     max-width: 100%;
@@ -196,6 +198,8 @@ img {
     .home__img {
         width: 300px;
     }
+
+    
     
 }
   
@@ -210,7 +214,7 @@ img {
 }
   
 .nav__link {
-    color: var(--text-color);
+    color: var(--cor-white);
     transition: all 0.5s;
 }
   
@@ -238,11 +242,60 @@ img {
 }
 
 
-    /* Menu */
-.show {
+  /* Menu */
+.show{
     top: 3rem;
 }
-  
+
+
+#hamburguer {
+    display: block;
+	position: relative;
+  	padding: 12px; 
+	cursor:pointer;
+    right: 15px;
+    bottom: 10px;
+
+}
+
+.linha {
+    position: absolute;
+	height: 3px;
+	width: 80%;
+    margin: 10px;
+	background: white;
+	border-radius: 8px;
+	transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+
+.top {
+	top:18%;
+}
+
+
+.meio {
+	top:48%;
+}
+
+
+.bottom {
+	top:78%;
+}
+
+
+.icon.close .top {
+	transform:rotate(45deg);
+	top:48%;
+}
+
+
+.icon.close .meio, .icon.close .bottom {
+	transform:rotate(-45deg);
+	top:48%;
+}
+
+
 
 .main-g {
     height: calc(100vh - 3rem);
@@ -365,7 +418,7 @@ img {
     }
     
     .nav {
-      height: 4rem;
+        height: 4rem;
     }
     
     .nav__lista {
