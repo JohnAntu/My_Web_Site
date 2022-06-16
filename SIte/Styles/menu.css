@@ -70,17 +70,15 @@ ul li a {
     
 }
 
-ul li a:hover{
+ul li a:hover {
 	background:#900;
-	-webkit-transform: scale(1.5);
     border-radius: 30px;
+    -webkit-transform: scale(1.5);
     transform: scale(1.5);
-
 }
 
-ul li a:active{
+ul li a:active {
     transform: scale(1.10);
     transition: all .09s;
 }
-
 
