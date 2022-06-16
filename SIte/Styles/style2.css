@@ -7,6 +7,8 @@
 
 body {
     background-image: linear-gradient(to bottom, black ,#4E1116);
+    height: 100vh;
+    overflow: hidden;  
 }
 
 h1 {
@@ -18,10 +20,19 @@ h1 {
     letter-spacing: 2px;
 }
 
+
+
 p {
     color: white;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(211, 211, 211, 0.089);
+}
+
+p.txt2 {
+   text-align: center;
+   background: none;
+   padding: 0;
+   margin: 8px;
 }
 
 span {
@@ -31,6 +42,8 @@ span {
 img {
     max-width: 100%;
     display: block;
+    height: 200px;
+    width: 300px;
     filter: grayscale();
     border: 1px solid black;
 }
@@ -49,15 +62,35 @@ img:hover {
     transition-property: color;
 }
 
-
 .flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px; 
+    max-width: 600px; 
     margin: 0 auto;
+    transition: all 1s;   
 }
 
 .flex > div {
     flex: 1 1 200px; 
     margin: 10px;
+    transition: all 1s;   
 }
+
+
+.Git {
+    width: 100vw;
+}
+
+
+
+ion-icon {
+    display: block;
+    color: white;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+ion-icon:hover {
+    transition: all 0.5s;
+    height: 1.7rem;}
+
