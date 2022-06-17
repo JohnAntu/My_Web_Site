@@ -8,7 +8,6 @@
 body {
     background-image: linear-gradient(to bottom, black ,#4E1116);
     height: 100vh;
-    overflow: hidden;  
 }
 
 h1 {
@@ -151,5 +150,3 @@ body {
 }
 
 }
-
-
