@@ -8,6 +8,7 @@
 body {
     background-image: linear-gradient(to bottom, black ,#4E1116);
     height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
@@ -110,7 +111,7 @@ ion-icon:hover {
 body {
     overflow-x: hidden;
     overflow: scroll; 
-    height: 1900px; 
+    height: 3300px; 
     
 }
 
@@ -146,7 +147,7 @@ p.b2 {
 
 body {
     overflow: scroll; 
-    height: 800px; 
+    height: 900px; 
 }
 
 }
