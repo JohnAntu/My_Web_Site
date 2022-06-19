@@ -91,7 +91,7 @@ function endGame(draw) {
     if (draw) {
         gameEndMessage.innerText = "Empate!"
     } else {
-        gameEndMessage.innerText = `${xTurn ? "x's" : "0's"} venceu!`
+        gameEndMessage.innerText = `${xTurn ? "O x" : "O 0"} venceu!`
     }
 
     gameEndElement.classList.add('show')

@@ -64,10 +64,9 @@ span {
 
 
 
-
 #txt {
     background-color: rgb(255, 255, 255);
-    height: 1200px;
+    height: 1350px;
     width: 80%;
     margin: 30px auto;
     padding: 40px 30px;
@@ -95,7 +94,6 @@ p {
 
 p#p2 {
     text-align: center;
-    font-size: 15px;
 }
 
 
@@ -127,7 +125,7 @@ p#p2 {
     transition: all .09s;
 }
 
-        /* svg */
+    
 svg {
     display: block;
     font: 5.5em 'Montserrat';
@@ -176,7 +174,7 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
-/* Button */
+
 
 .Profile{
     display: inline-block;
@@ -242,6 +240,15 @@ ul li a:active{
         margin: -32px auto;
     }
 
+    p {
+        text-align: justify;
+        margin-bottom: 35px;
+    }
+    
+    #txt {
+        height: 1500px;
+    }
+
     .Profile {
         margin: 0 7vw;
     }
@@ -272,6 +279,10 @@ ul li a:active{
         height: 156px;
     }
 
+    #txt {
+        height: 1100px;
+    }
+
     .Profile {
         margin: 0 22.5vw;
     }
@@ -291,7 +302,7 @@ ul li a:active{
 
     #txt {
         background-color: rgb(255, 255, 255);
-        height: 93vh;
+        height: 109vh;
         width: 45%;
         margin: 20px auto;
         padding: 40px 30px;
@@ -354,7 +365,7 @@ ul li a:active{
 @media only screen and (min-width: 1201px) and (max-width: 1800px){
 
     #txt {
-    height: 1000px;
+    height: 1150px;
     width: 45%;
     margin: 30px auto;
     }

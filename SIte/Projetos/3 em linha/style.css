@@ -19,7 +19,7 @@
 
 
 body {
-    background-color: #202124;
+    background-color: black;
 }
 
 
@@ -124,7 +124,7 @@ main.end{
     width: calc(var(--mark-size) * 0.6);
     height: calc(var(--mark-size) * 0.6);
 
-    background-color: #202124;
+    background-color: black;
 }
 
 
