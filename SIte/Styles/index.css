@@ -66,20 +66,20 @@
 
 .primeiro {
 
-    background-color: var(--cor-red);
+    background-image: linear-gradient(to bottom, #000, #4E1116);
 
 }
   
 .segundo {
 
-    background-color: var(--cor-red);
+    background-image: linear-gradient(to bottom, #000, #4E1116);
     left: 33.3%;
 
 }
   
 .terceiro {
 
-    background-color: var(--cor-red);
+    background-image: linear-gradient(to bottom, #000, #4E1116);
     left: 66.6%;
 
 }
