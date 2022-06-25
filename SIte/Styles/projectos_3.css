@@ -1,0 +1,153 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+
+body {
+    background-image: linear-gradient(to bottom, black ,#4E1116);
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 28px;
+	font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(211, 211, 211, 0.089);
+
+}
+
+
+p.b2 {
+  width: 39%;
+}
+
+
+p.txt2 {
+   text-align: center;
+   background: none;
+   padding: 0;
+   margin: 8px;
+}
+
+span {
+    color: #a30000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 200px;
+    width: 300px;
+    filter: grayscale();
+    border: 1px solid black;
+}
+
+img:hover {
+    filter: none;
+    transition: 1s ease;    
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+:hover::after {
+    filter: none;
+    transition: 1s ease;
+    transition-property: color;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    margin: 0 auto;
+    transition: all 1s;   
+}
+
+
+.flex > div {
+    flex: 1 1 200px; 
+    margin: 10px;
+    transition: all 1s;   
+}
+
+
+.Git {
+    width: 100vw;
+}
+
+
+
+ion-icon {
+    display: block;
+    color: white;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+ion-icon:hover {
+    transition: all 0.5s;
+    height: 1.7rem;
+}
+
+
+
+@media all and (max-width: 480px) { 
+    	
+    
+body {
+    overflow-x: hidden;
+    overflow: scroll; 
+    height: 3300px; 
+    
+}
+
+p, p.b2 {
+    width: 97%;
+    text-align: center;
+}
+
+.flex > div {
+    margin: 40px;
+}
+
+}
+
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+body {
+    overflow-x: hidden;
+    overflow: scroll; 
+    height: 1200px; 
+}
+
+p.b2 {
+    width: 60%;
+}
+
+}
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+body {
+    overflow: scroll; 
+    height: 900px; 
+}
+
+}
